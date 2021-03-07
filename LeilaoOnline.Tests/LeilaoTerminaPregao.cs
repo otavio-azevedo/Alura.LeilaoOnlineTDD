@@ -32,10 +32,9 @@ namespace LeilaoOnline.Tests
     Martin Fowler debate o real propósito da cobertura de código: https://www.martinfowler.com/bliki/TestCoverage.html
     
     Tutorial para verificar a cobertura de código: https://docs.microsoft.com/pt-br/dotnet/core/testing/unit-testing-code-coverage?tabs=windows
+        Coverlet + ReportGenerator
         Exemplo cmd para gerar o relatório (a partir da raiz do projeto):
             reportgenerator "-reports:C:\Users\lotav\Documents\Cursos\Alura\Cursos\Testes Unitarios\LeilaoOnline\LeilaoOnline.Tests\TestResults\91281b5f-8d46-45b3-960d-b3b2b2c04702\coverage.cobertura.xml" "-targetdir:coveragereport" -reporttypes:Html"
-    
-    
     
     Talk de Michael Feathers sobre como testes melhoram o design: https://www.youtube.com/watch?v=4cVZvoFGJTU
      */
